@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Oct 14 23:43:31 2025
+# Process ID: 31182
+# Current directory: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/impl_1/vivado.jou
+# Running On: ghermann-Inspiron-16-7620-2-in-1, OS: Linux, CPU Frequency: 1080.022 MHz, CPU Physical cores: 12, Host memory: 16437 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

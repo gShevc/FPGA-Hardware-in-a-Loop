@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Oct 14 23:30:42 2025
+# Process ID: 21006
+# Current directory: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/design_1_rst_ps7_0_100M_0_synth_1
+# Command line: vivado -log design_1_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_ps7_0_100M_0.tcl
+# Log file: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/design_1_rst_ps7_0_100M_0_synth_1/design_1_rst_ps7_0_100M_0.vds
+# Journal file: /home/ghermann/Desktop/PROJECTS/HIL/vivado/project_1/project_1.runs/design_1_rst_ps7_0_100M_0_synth_1/vivado.jou
+# Running On: ghermann-Inspiron-16-7620-2-in-1, OS: Linux, CPU Frequency: 3095.000 MHz, CPU Physical cores: 12, Host memory: 16437 MB
+#-----------------------------------------------------------
+source design_1_rst_ps7_0_100M_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_rst_ps7_0_100M_0
+Command: synth_design -top design_1_rst_ps7_0_100M_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21306
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:02:29 . Memory (MB): peak = 1979.684 ; gain = 372.738 ; free physical = 134 ; free virtual = 2240
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1176.094; parent = 1021.682; children = 154.412
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2866.586; parent = 1982.656; children = 883.930
+---------------------------------------------------------------------------------
